@@ -1,0 +1,26 @@
+body{
+    background-color: #5C415D;
+}
+
+ol{
+    background-color: #DEEFB7;
+}
+ul{
+    background-color: #FF715B;
+}
+
+#nombre {
+    background-color: blue;
+    border: 1.5px dashed lightblue;
+}
+
+#apellido {
+    font-size: 400%;
+}
+.pepe{
+    color: aquamarine;
+}
+
+.carlos {
+    font-weight: bold;
+}
