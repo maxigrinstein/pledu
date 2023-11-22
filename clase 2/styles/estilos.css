@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.botonM:hover {
+    background-color: rgb(160, 4, 160)
+}
+
+.imagen{
+    width: 400px;
+    height: 600px;
+}
+
+.boton:hover {
+    background-color: lightblue;
+}
+
+.botoncito:hover {
+    background-color: blue;
+}

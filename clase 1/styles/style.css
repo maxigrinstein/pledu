@@ -1,0 +1,84 @@
+body {
+    background-color: #3D5A80;
+
+    font-family: Verdana;
+    color: #f7ede2;
+}
+
+h1 {
+    color: rgb(238, 108, 77);
+}
+
+h2 {
+    color: #E0FBFC;
+}
+
+li {
+    color: #FBFAF8
+}
+
+#bordeado {
+    border : 3px solid white;
+}
+
+input {
+    
+    box-sizing : border-box ;
+    border : 2px dashed  rgb(238, 108, 77) ;
+}
+
+div p {
+    font-size: 150%;
+    color: #98C1D9;
+
+}
+
+input[type="text"] {
+    background-color: lightblue;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: purple
+}
+
+
+div:nth-of-type(3) > p {
+    color: lime;
+}
+  
+div:nth-of-type(3) > p:nth-of-type(2){
+    border: 3px solid white;
+}
+
+input[type="checkbox"]:checked {
+    margin-left: 60px;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+#ultimo:first-letter{
+    background-color: orange;
+    font-size: 300%;
+}
+
+.formulario:focus {
+    border: 2px solid gold;
+}
+
+button{
+    font-size: x-large;
+}
+button:active {
+    
+    background-color: yellow;
+}
