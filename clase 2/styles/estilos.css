@@ -19,3 +19,19 @@ body {
 .botoncito:hover {
     background-color: blue;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+form input {
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pancho{
+    border-radius: 15vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #D9B591;
+    width: 105vh;
+    height: 40vh;
+    
+}
+
+.salchicha{
+    position: absolute;
+    background-color: #9b2f2f;
+    border-radius: 15vh;
+    width: 125vh;
+    height: 15vh;
+    z-index: 1;
+}
+
+.sombra{
+    opacity: 1;
+    border-radius: 5vh;
+    align-items: center;
+    position: absolute;
+    background-color: #b88759;
+    width: 105vh;
+    height: 20vh;
+    z-index: 1;
+}
+
+
+

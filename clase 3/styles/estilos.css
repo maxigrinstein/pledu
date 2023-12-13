@@ -1,0 +1,88 @@
+/** {
+    box-sizing: content-box;
+}*/
+
+/*div {
+    border: 2px solid red;
+    margin: 20px; /* orden agujas reloj, se pueden poner 2 valores para arriba/abajo y izq/der (en ese orden)*/
+    /*padding: 20px;
+    border-left: 5px solid blue;
+    width: 50%;
+    margin: 5px auto;
+}*/
+
+div {
+    border: 2px solid red;
+    height: 200px;
+}
+
+#uno {
+    position: static;
+}
+
+#dos {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    background-color: yellow;
+}
+
+#tres {
+    position: fixed;
+    background-color: lime;
+}
+
+.pulser {
+    border: #09f;
+    margin-left: 3vh;
+    width: 50px;
+    height: 50px;
+    background-color: #09f;
+    border-radius: 50%;
+    position: relative;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+    
+}
+
+section{
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+section:hover .pulser{
+    opacity: 1;
+}
+
+.pulser:first-child {
+    transition-delay: 0s;
+}
+
+.pulser:nth-child(2){
+    transition-delay: 100ms;
+
+}
+
+.pulser:nth-child(3){
+    transition-delay: 300ms;
+}
+
+#col1{
+    float: left;
+    background-color: orange;
+    width: 70%;
+}
+
+#col2{
+    float: left;
+    background-color: lime;
+    width: 30%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}

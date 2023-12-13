@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaPet</title>
+    <link rel="stylesheet" href="../styles/estilospet.css">
+</head>
+<body>
+    <h1>!Bienvenido a InstaPet!</h1>
+    <p>En esta pagina vas a poder crearle un usuario a tu mascota y compartirla con el resto de usuarios</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JSrgM8vPauA" frameborder="0"></iframe>
+    <div>
+        <h1>Encontranos en: </h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d410.308522151309!2d-58.5165304423956!3d-34.64287754547883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc84eed00919b%3A0xebcb7fae0240db9b!2sAmor%20Coraz%C3%B3n.%20Env%C3%ADos%20a%20Domicilio!5e0!3m2!1ses!2sar!4v1701394864902!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1367538459153!2d-58.44050408793619!3d-34.625984272833534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4852c75237%3A0xf241aca2450c871e!2sAv.%20Pedro%20Goyena%20723%2C%20C1424%20CABA!5e0!3m2!1ses!2sar!4v1701454746303!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class = "flex ">
+        <form action="https://formspree.io/f/xknllkaw" method="post">
+            <label for="n">Nombre de Mascota</label>
+            <input id="n" type="text" name="Nombre Mascota" placeholder="nombre" required>
+            <label>Edad de Mascota</label>
+            <input type="number" name="Edad de mascota" placeholder="edad">
+            <label>Correo electronico</label>
+            <input type="email" name="Email" placeholder="email">
+            <label>Contraseña</label>
+            <input type="password" name="Contraseña">
+            <label>Color</label>
+            <input type="color">
+            
+            <label>Masculino</label>
+            <input type="radio" name="genero" value="masculino">
+            <label>Femenino</label>
+            <input type="radio" name="genero" value="femenino">
+            <label> Terminos y condiciones</label>
+            <input type="checkbox" name="bases/_y_/condiciones" value="acepta"> 
+            <label for="raza_gato">Gatos</label>
+            <select name="Gatos" id="raza_gato">
+                <option>Elegir opcion</option>
+                <option>Siames</option>
+                <option>Persa</option>
+                <option>Esfinge</option>
+            </select>
+            <label for="comments">Comentarios</label>
+            <textarea name="Comentarios" id="comments" cols="40" rows="10" placeholder="Escribenos tus comentarios sobre tu mascota"></textarea>
+            <input type="submit" value="Ingresar"> 
+        </form>
+    </div>
+    
+    
+</body>
+</html>
