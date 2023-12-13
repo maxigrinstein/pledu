@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffcc66; /* Color de fondo similar al pan */
+}
+
+.pancho {
+position: relative;
+width: 300px;
+height: 150px;
+background-color: #f9d599; /* Color del pancho */
+border-radius: 20px;
+overflow: hidden;
+}
+
+.salchicha {
+position: absolute;
+width: 100%;
+height: 60px;
+background-color: #ff7f50; /* Color de la salchicha */
+border-radius: 10px;
+bottom: 0;
+}
+
+.mostaza {
+position: absolute;
+width: 100%;
+height: 10px;
+background: linear-gradient(90deg, #ffdb58 0%, #ffdb58 50%, transparent 50%, transparent 100%);
+bottom: 55px;
+}
+
+.ketchup {
+position: absolute;
+width: 100%;
+height: 10px;
+background: linear-gradient(90deg, #ff6347 0%, #ff6347 50%, transparent 50%, transparent 100%);
+bottom: 45px;
+}

@@ -5,36 +5,39 @@ body{
     align-items: center;
     height: 100vh;
 }
-.pancho{
-    border-radius: 15vh;
-    display: flex;
-    align-items: center;
-    position: relative;
-    background-color: #D9B591;
-    width: 105vh;
-    height: 40vh;
-    
-}
+
 
 .salchicha{
     position: absolute;
     background-color: #9b2f2f;
     border-radius: 15vh;
-    width: 125vh;
+    width: 145vh;
     height: 15vh;
+    z-index: 1;
+    
+}
+
+.pancho {
+    position: absolute;
+    background-color: #D9B591;
+    border-radius: 20vh;
+    width: 125vh;
+    height: 18vh;
     z-index: 1;
 }
 
-.sombra{
-    opacity: 1;
-    border-radius: 5vh;
-    align-items: center;
-    position: absolute;
-    background-color: #b88759;
-    width: 105vh;
-    height: 20vh;
-    z-index: 1;
+#abajo{
+    margin-top: 15%;
+    border-top: 95px solid #d4a779;
+    
 }
+
+#arriba{
+    margin-bottom: 15%;
+    border-bottom: 95px solid #d4a779;
+}
+
+
 
 
 

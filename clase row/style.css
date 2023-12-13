@@ -1,0 +1,10 @@
+.verde {
+    background-color: lime;
+    border: 1px solid orange;
+}
+
+.mb-3 {
+    width: 50%;
+    height: auto;
+    margin: 30px;
+}
